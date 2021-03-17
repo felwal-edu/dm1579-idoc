@@ -1,0 +1,80 @@
+
+@font-face{
+  font-family:"Fake Receipt W05 Regular";
+  src: url("../Player/css/editor/fonts/5104377/14dff8d1-0f99-4bbb-9849-c39cdf00967d.woff2") format("woff2"),
+  url("../Player/css/editor/fonts/5104377/f260fbce-c4f8-4bd7-88eb-49b8d1bbc9b5.woff") format("woff");
+}
+
+#receipt {
+  width: fit-content;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.result {
+  margin-bottom: 1.5em;
+  font-size: 15pt;
+  font-family: 'Fake Receipt W05 Regular', serif;
+  color: black;
+  font-weight: 400;
+}
+#title {
+  font-size: 32pt;
+  margin-bottom: 3em;
+}
+#total {
+  margin-top: 3em;
+  margin-bottom: 6em;
+}
+#costTotal {
+  margin-top: 3em;
+  margin-bottom: 6em;
+}
+#feedback {
+  line-height: 200%;
+}
+
+#columns > * {
+  display: inline-block;
+}
+#columns > *:first-child{
+  margin-right: 3em;
+}
+#costs > * {
+  text-align: end;
+}
+#purchases > * {
+  text-align: start;
+}
+
+#receiptBtns {
+  width: fit-content;
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  text-align: -webkit-right;
+}
+#receiptBtns > * {
+  display: block;
+  border: 0;
+  background-size: cover;
+  color: #ffffff00;
+  cursor: pointer;
+  outline: none;
+}
+
+#restart {
+  background: url('../Medias/Photos/btn_replay.png') no-repeat;
+  width: 365px;
+  height: 70px;
+}
+#conclude {
+  background: url('../Medias/Photos/btn_quit.png') no-repeat;
+  width: 160px;
+  height: 70px;
+}
+
+#restart:hover { background: url('../Medias/Photos/btn_replay_hover.png') no-repeat; }
+#conclude:hover { background: url('../Medias/Photos/btn_quit_hover.png') no-repeat; }

@@ -1,0 +1,102 @@
+
+@font-face {
+	font-family: 'Chewy';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../Player/css/editor/fonts/Chewy-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../Player/css/editor/fonts/OpenSans-Regular.eot');
+	src: url('../Player/css/editor/fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+	     url('../Player/css/editor/fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+#desc {
+  margin-top: 1.5em;
+  font-size: 28pt;
+  font-family: 'Chewy', serif;
+  color: #4A322E;
+  font-weight: 400;
+}
+
+#choice0 { top: 60%; }
+#choice1 { top: 30%; }
+#choice2 { top: 45%; }
+
+#choice0 > * {
+  width: 387px;
+  height: 260px;
+}
+#choice1 > * {
+  width: 15em;
+  height: 15em;
+}
+#choice2 > * {
+  width: 18em;
+  height: 18em;
+}
+#choice3 > * {
+  width: 25em;
+  height: 25em;
+}
+
+.choice {
+  width: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.choice > * {
+  margin-left: 8em;
+}
+.choice > *:first-child {
+  margin-left: 0em;
+}
+
+.item {
+  border: 0;
+  background-size: cover;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: 'Open Sans', 'Times New Roman', serif;;
+  color: transparent;
+  font-weight: 400;
+  outline: none;
+}
+
+#SE { background: url('../Medias/Photos/lang_se.png') no-repeat; background-size: cover; }
+#EN { background: url('../Medias/Photos/lang_en.png') no-repeat; background-size: cover; }
+#cattle { background: url('../Medias/Photos/cattle.png') no-repeat; background-size: cover; }
+#chicken { background: url('../Medias/Photos/chicken.png') no-repeat; background-size: cover; }
+#legumes { background: url('../Medias/Photos/legumes.png') no-repeat; background-size: cover; }
+#potatoes { background: url('../Medias/Photos/potatoes.png') no-repeat; background-size: cover; }
+#pasta { background: url('../Medias/Photos/pasta.png') no-repeat; background-size: cover; }
+#swedish { background: url('../Medias/Photos/swedish.png') no-repeat; background-size: cover; }
+#imported { background: url('../Medias/Photos/imported.png') no-repeat; background-size: cover; }
+
+#SE:hover { background: url('../Medias/Photos/lang_se_hover.png') no-repeat; background-size: cover; }
+#EN:hover { background: url('../Medias/Photos/lang_en_hover.png') no-repeat; background-size: cover; }
+#cattle:hover { background: url('../Medias/Photos/cattle_hover.png') no-repeat; background-size: cover; }
+#chicken:hover { background: url('../Medias/Photos/chicken_hover.png') no-repeat; background-size: cover; }
+#legumes:hover { background: url('../Medias/Photos/legumes_hover.png') no-repeat; background-size: cover; }
+#potatoes:hover { background: url('../Medias/Photos/potatoes_hover.png') no-repeat; background-size: cover; }
+#pasta:hover { background: url('../Medias/Photos/pasta_hover.png') no-repeat; background-size: cover; }
+#swedish:hover { background: url('../Medias/Photos/swedish_hover.png') no-repeat; background-size: cover; }
+#imported:hover { background: url('../Medias/Photos/imported_hover.png') no-repeat; background-size: cover; }
+
+#instructions {
+  position: absolute;
+  display: block;
+  width: 4.5em;
+  height: 4.5em;
+  right: 1em;
+  top: 1em;
+  background: url('../Medias/Photos/btn_info.png') no-repeat;
+  background-size: cover;
+}
+#instructions:hover { background: url('../Medias/Photos/btn_info_hover.png') no-repeat; background-size: cover; }
