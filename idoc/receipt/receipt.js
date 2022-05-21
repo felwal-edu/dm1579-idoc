@@ -1,6 +1,6 @@
-// display choices made, their CO2-cost and the total
-// feedback paragraph discerning pass/fail of test
-// play again button & quit button
+// - display choices made, their CO2-cost and the total
+// - feedback paragraph discerning pass/fail of test
+// - play again button & quit button
 
 var storage = window['localStorage'];
 var emissionLimit = 0.5;

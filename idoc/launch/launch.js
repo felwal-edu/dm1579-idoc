@@ -1,4 +1,4 @@
-// launch intro video, depending on language.
+// - launch intro video, depending on language.
 
 var storage = window['localStorage'];
 var nextSeq = {
@@ -11,6 +11,6 @@ var lang = storage.getItem("choice0");
 if (lang != "SE") { lang = "EN"; }
 
 // launch sequence
-setInterval(() => { 
+setInterval(() => {
   KlyntAPI.commands.openSequence(nextSeq[lang]);
 }, 2700);

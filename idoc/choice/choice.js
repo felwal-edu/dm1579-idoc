@@ -1,6 +1,6 @@
-// register food choices and open the appropriate next sequence
-// description paragraph for what is expected of the viewer
-// instructions button
+// - register food choices and open the appropriate next sequence
+// - description paragraph for what is expected of the viewer
+// - instructions button
 
 var storage = window['localStorage'];
 var sequenceKey;
@@ -35,6 +35,7 @@ var vocab = {
 function el(id) {
   return document.querySelector(id);
 }
+
 function getElementByClass(className) {
   var list = document.getElementsByClassName(className);
   return list[0];

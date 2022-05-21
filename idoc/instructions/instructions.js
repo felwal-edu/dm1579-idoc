@@ -1,4 +1,4 @@
-// display instruction paragraphs in chosen language
+// - display instruction paragraphs in chosen language
 
 var storage = window['localStorage'];
 var emissionLimit = 0.5;
